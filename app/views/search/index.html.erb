@@ -1,0 +1,8 @@
+<h1>All Members of the Order</h1>
+
+<% @students.each do |student| %>
+<h2><%= student['name'] %></h2>
+Role: <%= student['role'] %><br>
+House: <%= student['house'] %><br>
+Patronus: <%= student['patronus'] %><br>
+<% end %><br><br>
