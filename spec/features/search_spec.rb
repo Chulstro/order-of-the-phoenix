@@ -14,6 +14,5 @@ RSpec.describe "When searching as a user" do
     expect(page).to have_content("Gryffindor")
     expect(page).to have_content("Owner, Hog's Head Inn")
     expect(page).to have_content("Patronus: goat")
-    save_and_open_page
   end
 end
